@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ .show_alert{
+    display: block;
+    width:200px;
+    height: 55px;
+    background-color: rgb(74, 111, 106);
+    position: fixed; 
+    bottom: 20px; 
+    text-align: center;
+    padding-top: 13px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 4px;
+    z-index: 999999;
+    transition: all 0.3s ease;
+    opacity: 1; 
+    left: 50%;  
+    transform: translate(-50%);
+ }
+
+ 
+  
+  .fade_out {
+    opacity: 0; 
+  }

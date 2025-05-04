@@ -1,0 +1,98 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 75.5px;
+  padding: 20px 0px;
+}
+.nheader {
+  position: fixed;
+  width: 100%;
+  z-index: 9991;
+  top: 0;
+  background-color: #fff; 
+}
+
+.shadow {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+.header_menu {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.header_menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header_menu .nli .na {
+  color: #4a6f6a;
+  text-decoration: none;
+}
+.nnav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.nheader > .head > .na {
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #4a6f6a;
+  line-height: 38px;
+  font-size: 24px;
+}
+
+.header_menu .nli {
+  margin: 0 0 0 30px;
+  padding: 0 0 0 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative; /* Required for absolute positioning */
+  display: inline-block;
+}
+
+.header_menu .nli:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0; /* Start with 0 width */
+  height: 1px; /* Border thickness */
+  background: #4a6f6a; /* Border color (blue) */
+  transition: width 0.3s ease-in-out; /* Animation speed & easing */
+}
+
+.header_menu .nli:hover::after {
+  width: 100%;
+}
+
+.header_menu .nli:hover {
+  color: #7a9e7e;
+}
+
+.navbar_cart{
+  color: #4a6f6a; 
+  transform: translateX(18px);
+}
+
+
+.navbar_cart span{ 
+  position: relative;
+  top: -12px;
+  right: 7px; 
+  background-color: #7a9e7e;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 7px;
+  font-size: 12px;
+}

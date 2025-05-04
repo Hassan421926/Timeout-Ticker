@@ -1,0 +1,153 @@
+.contact_hero {
+  background-image: url("../assets/contect_hero.jpeg");
+}
+
+.contact_main {
+  padding: 60px;
+}
+
+.contact_main_heading {
+  display: flex;
+  flex-direction: column;
+}
+.contact_main_heading h2 {
+  margin: 0;
+}
+
+.contact_main_heading p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(51, 51, 51);
+}
+
+.contact_info_form_cont {
+  display: flex;
+  gap: 30px;
+  padding: 35px;
+  justify-content: center;
+}
+
+.contact_info,
+.contact_form {
+  width: 43vw;
+  background-color: #f8f8f8;
+  padding: 34px 30px;
+  border-radius: 4px;
+}
+
+.contact_info h2,
+.form_label h2 {
+  line-height: 38px;
+  font-size: 24px;
+}
+
+.contact_location_phone_sub_cont div {
+  display: block;
+  color: black;
+}
+
+.contact_location_phone_sub_cont div h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29px;
+  color: rgb(74, 111, 106);
+  display: inline-block;
+}
+
+.contact_location_phone_sub_cont div p {
+  display: block;
+  margin-left: 31px;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(74, 111, 106);
+  color: rgb(119, 119, 119);
+}
+
+.contact_location_phone_sub_cont div i::before {
+  display: block;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  transform: translate(-7px, 2px);
+}
+.contact_links {
+  padding: 26px 1px;
+}
+.contact_links div {
+  display: flex;
+  justify-content: start;
+  margin: 0;
+  gap: 13px;
+}
+
+.contact_links div i::before {
+  color: #4a6f6a;
+}
+.contact_links div i {
+  background-color: rgba(74, 111, 106, 0.1);
+}
+
+.contact_links div i:hover::before {
+  color: white;
+}
+
+.form_name_label {
+}
+.form_name_label input,
+.form_name_label select,
+.form_name_label textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form_name_label label {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  color: rgb(51, 51, 51);
+}
+
+.form_name_label input:focus,
+.form_name_label select:focus,
+.form_name_label textarea:focus {
+  box-shadow: 0 0 0 2px rgba(122, 158, 126, 0.2);
+  border-color: #7a9e7e;
+}
+
+.form_submit {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 0;
+}
+
+.contact_questons h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.contact_question_cont{
+    background-color: #f5f5f5; 
+    width: 100%;
+}
