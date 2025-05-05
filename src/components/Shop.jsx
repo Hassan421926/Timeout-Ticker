@@ -27,15 +27,8 @@ const Shop = (props) => {
               <span>
                 Shop
               </span>
-            </div>   <div className={`${style2.second_last_first_txt1} ${style.shop_hero_heading}`}>
-              <h2>
-                Our Skincare Collection
-              </h2>
-              <a href=""> Home</a>
-              <span>
-                Shop
-              </span>
-            </div>
+            </div>   
+         
           </div>
         </div>
       </section>
